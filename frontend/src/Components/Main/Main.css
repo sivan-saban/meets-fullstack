@@ -1,0 +1,25 @@
+.Main > table {
+	margin:50px auto;
+    border-radius: 10px;
+    width:400px
+}
+
+
+.Main Table, .Main th, .Main td{
+    border:1px solid;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.Main tr:nth-child(even){
+    background-color: lightblue;
+}
+
+.Main tr:nth-child(odd){
+    background-color: rgb(10, 134, 148);
+}
+
+.Main thead tr:first-child{
+    background-color: lightgray;
+}
+

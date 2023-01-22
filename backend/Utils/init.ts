@@ -1,0 +1,2 @@
+export const create_group = "CREATE TABLE IF NOT EXISTS `meet`.`group_team` (`id` INT NOT NULL AUTO_INCREMENT,`group_name` VARCHAR(45) NULL,PRIMARY KEY (`id`))" ;
+export const create_meet = "CREATE TABLE IF NOT EXISTS `meet`.`meets` (`id` INT NOT NULL AUTO_INCREMENT,`group_name` INT NULL,`start_date` DATETIME NULL,`end_date` DATETIME NULL,`memo` VARCHAR(45) NULL,`room` VARCHAR(45) NULL,PRIMARY KEY (`id`))";
